@@ -17,6 +17,7 @@ convert "$base" -resize "180x180" -unsharp 1x4 "web/icon-180x180.png"
 # Android touch icon
 convert "$base" -resize "192x192"  -unsharp 1x4 "web/icon-192x192.png"
 # favicons
+convert "$base" -resize "16x16" -unsharp 1x4 "web/favicon.ico"
 convert "$base" -resize "16x16" -unsharp 1x4 "web/icon-16x16.png"
 convert "$base" -resize "32x32" -unsharp 1x4 "web/icon-32x32.png"
 convert "$base" -resize "96x96" -unsharp 1x4 "web/icon-96x96.png"
@@ -75,3 +76,39 @@ convert "$base" -resize "50x50" -unsharp 1x4 "windowsPhone8/50×50Logo.scale-100
 convert "$base" -resize "58x58" -unsharp 1x4 "windowsPhone8/58×58Logo.scale-240.png"
 convert "$base" -resize "33x33" -unsharp 1x4 "windowsPhone8/33×33Logo.scale-140.png"
 convert "$base" -resize "24x24" -unsharp 1x4 "windowsPhone8/24×24Logo.scale-100.png"
+
+
+#to support
+
+# App icon (required for all apps)
+# 180 x 180
+# 120 x 120
+# 152 x 152
+# 76 x 76
+# 167 x 167
+
+# App icon for the App Store (required for all apps)
+# 1024 x 1024
+
+#Spotlight search results icon (recommended)
+# 180 x 180
+# 120 x 120
+# 80 x 80
+# 60 x 60
+
+# Settings icon (recommended)
+# 87 x 87
+# 58 x 58
+# 29 x 29
+
+# Toolbar and navigation bar icon (optional)
+# 66 x 66
+# 44 x 44
+# 22 x 22
+
+# Web clip icon (recommended for web apps and websites)
+# 180 x 180
+# 120 x 120
+# 152 x 152
+# 76 x 76
+# 167 x 167
