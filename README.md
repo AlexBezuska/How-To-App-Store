@@ -37,6 +37,7 @@ Currently supported icons:
 
 
 ##### favicons
+- 16x16 favicon.ico
 - 16x16
 - 32x32
 - 96x96
