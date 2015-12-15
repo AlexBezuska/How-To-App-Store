@@ -17,7 +17,7 @@ convert "$base" -resize "180x180" -unsharp 1x4 "web/icon-180x180.png"
 # Android touch icon
 convert "$base" -resize "192x192"  -unsharp 1x4 "web/icon-192x192.png"
 # favicons
-convert "$base" -resize "16x16" -unsharp 1x4 "web/favicon.ico"
+convert "$base" -resize "16x16" -unsharp 1x4 -colors 256 "web/favicon.ico"
 convert "$base" -resize "16x16" -unsharp 1x4 "web/icon-16x16.png"
 convert "$base" -resize "32x32" -unsharp 1x4 "web/icon-32x32.png"
 convert "$base" -resize "96x96" -unsharp 1x4 "web/icon-96x96.png"
