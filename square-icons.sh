@@ -26,18 +26,6 @@ convert "$base" -resize "128x128" -unsharp 1x4 "web/icon-128x128.png"
 
 
 mkdir ios
-# iPad Settings
-convert "$base" -resize "29x29"-unsharp 1x4 "ios/Icon-Small.png"
-# iPhone Settings, iPad Settings for Retina display
-convert "$base" -resize "58x58"-unsharp 1x4 "ios/Icon-Small@2x.png"
-# iPhone Settings for Retina display
-convert "$base" -resize "87x87"-unsharp 1x4 "ios/Icon-Small@3x.png"
-# iPad Spotlight results
-convert "$base" -resize "40x40"-unsharp 1x4 "ios/Icon-40.png"
-# iPhone Spotlight results, iPad Spotlight results for retina display
-convert "$base" -resize "80x80"-unsharp 1x4 "ios/Icon-40@2x.png"
-# iPhone Spotlight results for retina display
-convert "$base" -resize "120x120" -unsharp 1x4 "ios/Icon-40@3x.png"
 # iPhone App Icon
 convert "$base" -resize "120x120"-unsharp 1x4 "ios/Icon-60@2x.png"
 # iPhone App Icon for Retina display
@@ -46,12 +34,12 @@ convert "$base" -resize "180x180"-unsharp 1x4 "ios/Icon-60@3x.png"
 convert "$base" -resize "76x76"-unsharp 1x4 "ios/Icon-76.png"
 # iPad App Icon for Retina display
 convert "$base" -resize "152x152"-unsharp 1x4 "ios/Icon-76@2x.png"
-# CarPlay App Icon
-convert "$base" -resize "120x120"-unsharp 1x4 "ios/Icon-120.png"
+# iPad App Icon for Retina display
+convert "$base" -resize "167x167"-unsharp 1x4 "ios/Icon-83.5@2x.png"
+# App Icon large
+convert "$base" -resize "1024x1024" -unsharp 1x4 "ios/Icon-1024.png"
 # App Submission
-convert "$base" -resize "512x512"-unsharp 1x4 "ios/iTunesArtwork.png"
-# App Submission
-convert "$base" -resize "1024x1024" -unsharp 1x4 "ios/iTunesArtwork@2x.png"
+convert "$base" -resize "2048x2048" -unsharp 1x4 "ios/Icon-2048.png"
 
 
 
