@@ -1,68 +1,73 @@
-# App and Web Icon Generator
+# How to App Store
+v 0.1
+
+A guide on how to release apps and games for the major platforms including tools for generating correct icon sets and screenshot sizes.
+
+This is a community project intended to help developers focus on the fun part of game and app creation - actually working on the project itself!
+
+## We need your help!
+### What works now
+** Tested on Mac OS X** :
+- Icon generation for web, iOS, and Windows phone 8
+
+### How you can help
+Please feel free to help with this project, specific needs and features wanted below in the `Feature Requests` and `Contributing` sections.
 
 
-Generate app icons in every size using this script.
+## Prerequisites & Installation
 
-Requires imagemagick
-
-
-Only square-icons.sh works at the moment!
-
-
-###usage:
-
-- Copy square-icons.sh to your computer
-- In the terminal cd into the directory with your master icon (1024x1024 png file) 
-- Assuming your file is named icon-1024x1024.png run:
-```bash
-sh /path/to/square-icons.sh icon-1024x1024.png
-```
-
-Currently supported icons:
-
-####web
-###### Apple touch icons
-- 57x57
-- 60x60
-- 72x72
-- 76x76
-- 114x114 
-- 120x120 
-- 144x144 
-- 152x152 
-- 180x180 
-
-##### Android touch icon
-- 192x192  
+- Terminal
+  - If you are using MacOS or Linux you already have this
+  - No Windows instructions / build process created yet, [help wanted](https://github.com/AlexBezuska/How-To-App-Store#Feature-requests)!
 
 
-##### favicons
-- 16x16 favicon.ico
-- 16x16
-- 32x32
-- 96x96
-- 128x128
+- [ImageMagick](https://www.imagemagick.org)
+  - MacOS using [Homebrew](https://brew.sh/)
+    - If you don't have Homebrew it can be installed with this command in your terminal: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+    - Once you have Homebrew you can run `brew install ImageMagick`
+  - Ubuntu
+    - ```sudo apt-get install imagemagick```
 
 
-####iOS
-- iPad Settings
-- iPhone Settings, iPad Settings for Retina display
-- iPhone Settings for Retina display
-- iPad Spotlight results
-- iPhone Spotlight results, iPad Spotlight results for retina display
-- iPhone Spotlight results for retina display
-- iPhone App Icon
-- iPhone App Icon for Retina display
-- iPad App Icon
-- iPad App Icon for Retina display
-- CarPlay App Icon
-- App Submission
-- App Submission
+- Clone this repository to your local machine(recommended)
+  - ```git clone git@github.com:AlexBezuska/How-To-App-Store.git```
+  - or download the zip (less recommended but it will work)
 
 
-#### Windows Phone
-- Windows phone 8.1 Square 71×71 Logo (240%, 140% and 100% sizes)
-- Windows phone 8.1 Square 150×150 Logo (240%, 140% and 100% sizes)
-- Windows phone 8.1 Square 44×44 Logo (240%, 140% and 100% sizes)
-- Windows phone 8.1 Store Logo (240%, 140% and 100% sizes)
-- Windows phone 8.1 Badge Logo (240%, 140% and 100% sizes)
+## How to use
+
+
+
+
+ #### Generate app icons:
+- Copy your app icon (2048 x 2048 px png format) into the `input` directory and name it `icon.png`
+- In your terminal move into the root of the `How-To-App-Store` project ex. ``` cd How-To-App-Store ```
+- run `./build.sh`
+- A `output` directory will be created or updated with the output files in their respective subfolders
+
+
+## Feature requests
+
+- Making the installation / build process work with Windows
+- Android icons need to be added
+- There is some thought and research required in coming up with correct base sizes for Screenshots
+
+
+
+## Contributing
+
+If you are interested in participating in this project, please feel free to send a bug or feature request by [submitting an issue](https://github.com/AlexBezuska/How-To-App-Store/issues), or submit a PR for me to review.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning.
+
+## Authors
+
+* **[Alex Bezuska](https://github.com/AlexBezuska)** - *Initial work*
+
+See also the list of [contributors](https://github.com/AlexBezuska/How-To-App-Store/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.TXT](LICENSE.TXT) file for details
