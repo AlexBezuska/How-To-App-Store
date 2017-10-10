@@ -1,5 +1,5 @@
 # How to App Store
-v 0.1
+v 0.2
 
 A guide on how to release apps and games for the major platforms including tools for generating correct icon sets and screenshot sizes.
 
