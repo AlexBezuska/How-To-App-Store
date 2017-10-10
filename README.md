@@ -1,5 +1,5 @@
 # How to App Store
-v 0.2
+v 0.2 [Changelog](https://github.com/AlexBezuska/How-To-App-Store/blob/master/CHANGELOG.md)
 
 A guide on how to release apps and games for the major platforms including tools for generating correct icon sets and screenshot sizes.
 
