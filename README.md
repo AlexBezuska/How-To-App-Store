@@ -7,7 +7,7 @@ This is a community project intended to help developers focus on the fun part of
 
 ## We need your help!
 ### What works now
-** Tested on Mac OS X** :
+** Tested on Mac OS X ** :
 - Icon generation for web, iOS, and Windows phone 8
 
 ### How you can help
@@ -18,7 +18,7 @@ Please feel free to help with this project, specific needs and features wanted b
 
 - Terminal
   - If you are using MacOS or Linux you already have this
-  - No Windows instructions / build process created yet, [help wanted](https://github.com/AlexBezuska/How-To-App-Store#Feature-requests)!
+  - No Windows instructions / build process created yet, [help wanted](https://github.com/AlexBezuska/How-To-App-Store#feature-requests)!
 
 
 - [ImageMagick](https://www.imagemagick.org)
