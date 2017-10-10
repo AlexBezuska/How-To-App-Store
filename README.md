@@ -8,7 +8,7 @@ This is a community project intended to help developers focus on the fun part of
 ## Guide:
 
 - Platforms:
-  - [Apple App Store guide](https://github.com/AlexBezuska/guide/Apple_App_Store.md)
+  - [Apple App Store guide](https://github.com/AlexBezuska/How-To-App-Store/blob/master/guide/Apple_App_Store.md)
 
 
 - Scripts:
