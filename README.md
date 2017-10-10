@@ -49,8 +49,6 @@ Please feel free to help with this project, specific needs and features wanted b
 ## How to use
 
 
-
-
  #### Generate app icons:
 - Copy your app icon (2048 x 2048 px png format) into the `input` directory and name it `icon.png`
 - In your terminal move into the root of the `How-To-App-Store` project ex. ``` cd How-To-App-Store ```
@@ -60,9 +58,18 @@ Please feel free to help with this project, specific needs and features wanted b
 
 ## Feature requests
 
-- Making the installation / build process work with Windows
-- Android icons need to be added
-- There is some thought and research required in coming up with correct base sizes for Screenshots
+- [Add installation & build process for Windows](https://github.com/AlexBezuska/How-To-App-Store/issues/1)
+- [Add Google Play Store guide](https://github.com/AlexBezuska/How-To-App-Store/issues/2)
+- [Add Google Play Store icon / screenshot dimensions](https://github.com/AlexBezuska/How-To-App-Store/issues/3)
+- [Add Itch.io guide](https://github.com/AlexBezuska/How-To-App-Store/issues/4)
+- [Add Itch.io screenshot and gif preview dimensions](https://github.com/AlexBezuska/How-To-App-Store/issues/5)
+- [Add Steam guide](https://github.com/AlexBezuska/How-To-App-Store/issues/6)
+- [Add Windows Store guide](https://github.com/AlexBezuska/How-To-App-Store/issues/7)
+- [Add Windows Store icon / screenshot dimensions](https://github.com/AlexBezuska/How-To-App-Store/issues/8)
+- [Add Mac App Store guide](https://github.com/AlexBezuska/How-To-App-Store/issues/9)
+- [Add Mac App Store icon / screenshot dimensions](https://github.com/AlexBezuska/How-To-App-Store/issues/10)
+- [Figure out base aspect ratios and max sizes for screen shots that a script can use to generate all the other sizes](https://github.com/AlexBezuska/How-To-App-Store/issues/11)
+- Help add [github issues](https://github.com/AlexBezuska/How-To-App-Store/issues) for stores and platforms I am missing, data that is missing etc.
 
 
 
