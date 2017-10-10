@@ -4,8 +4,8 @@
 
 ## Prerequisites
 
-- **An Apple Mac computer** (Cost: $499(Mac Mini) and up, used prices vary)
-  - Yes you need a mac, and yes this is for real, the Xcode SDK and editor only run on MacOS and you also need to use Xcode to upload your app to Apple
+- **An Apple Mac computer** (Cost: $499(new Mac Mini) and up, used prices vary)
+  - Yes you need a mac, and yes this is for real... The Xcode SDK and editor only run on MacOS and you also need to use Xcode to upload your app to Apple
 - **iOS Developer account** (Cost: $100 per year)
 - **Support Form**
   - Apple asks for each developer to have a support URL, this means a form on your website where users will be directed to for bugs and support questions about your app (at minimum a google form for support that emails you)
