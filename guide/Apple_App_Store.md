@@ -9,10 +9,10 @@
 - **iOS Developer account** ($100 per year)
 - **Support Form**
   - Apple asks for each developer to have a support URL, this means a form on your website where users will be directed to for bugs and support questions about your app (at minimum a google form for support that emails you)
-- **Registered Business**
+- **Registered Business** (
   - If you wish to release apps under your own personal name ex. `Claudia Sanders` you can skip this section
   - If you wish to release apps under a company name or game studio name you will need to complete some extra steps:
- - Register your company as an ** LLC, S-Corp or similar business ** . This varies in cost and complexity depending on your city, county, state, and federal government. This could also take a few weeks.
+ - Register your company as an **LLC, S-Corp or similar business** . This varies in cost and complexity depending on your city, county, state, and federal government. This could also take a few weeks.
  - **A D-U-N-S number** [Instructions here](https://developer.apple.com/support/D-U-N-S/)
     - Dun & Bradstreet is a third party service Apple uses to verify that you are a real business, and that you are serious. This could also take a few weeks.
 
