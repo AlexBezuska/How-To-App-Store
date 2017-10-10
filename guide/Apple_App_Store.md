@@ -4,15 +4,15 @@
 
 ## Prerequisites
 
-- **An Apple Mac computer**
+- **An Apple Mac computer** (Cost: $499(Mac Mini) and up, used prices vary)
   - Yes you need a mac, and yes this is for real, the Xcode SDK and editor only run on MacOS and you also need to use Xcode to upload your app to Apple
-- **iOS Developer account** ($100 per year)
+- **iOS Developer account** (Cost: $100 per year)
 - **Support Form**
   - Apple asks for each developer to have a support URL, this means a form on your website where users will be directed to for bugs and support questions about your app (at minimum a google form for support that emails you)
-- **Registered Business** (
+- **Registered Business** (Cost: varies by state)
   - If you wish to release apps under your own personal name ex. `Claudia Sanders` you can skip this section
   - If you wish to release apps under a company name or game studio name you will need to complete some extra steps:
- - Register your company as an **LLC, S-Corp or similar business** . This varies in cost and complexity depending on your city, county, state, and federal government. This could also take a few weeks.
+ - Register your company as an **LLC, S-Corp or similar business** . This varies in cost and complexity depending on your city, county, state, and federal government. This could also take a few weeks. You will likely find instructions/ online forms if you search for "LLC" and your city name, these sites usually will point you in the right the direction for state and federal.
  - **A D-U-N-S number** [Instructions here](https://developer.apple.com/support/D-U-N-S/)
     - Dun & Bradstreet is a third party service Apple uses to verify that you are a real business, and that you are serious. This could also take a few weeks.
 
