@@ -5,6 +5,16 @@ A guide on how to release apps and games for the major platforms including tools
 
 This is a community project intended to help developers focus on the fun part of game and app creation - actually working on the project itself!
 
+## Guide:
+
+- Platforms:
+  - [Apple App Store guide](https://github.com/AlexBezuska/guide/Apple_App_Store.md)
+
+
+- Scripts:
+  - [Icon Generator Script](https://github.com/AlexBezuska/How-To-App-Store#how-to-use)
+
+
 ## We need your help!
 ### What works now
 ** Tested on Mac OS X ** :
