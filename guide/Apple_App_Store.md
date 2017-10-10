@@ -4,16 +4,16 @@
 
 ## Prerequisites
 
-- ** An Apple Mac computer **
+- **An Apple Mac computer**
   - Yes you need a mac, and yes this is for real, the Xcode SDK and editor only run on MacOS and you also need to use Xcode to upload your app to Apple
-- ** iOS Developer account ** ($100 per year)
-- ** Support Form **
+- **iOS Developer account** ($100 per year)
+- **Support Form**
   - Apple asks for each developer to have a support URL, this means a form on your website where users will be directed to for bugs and support questions about your app (at minimum a google form for support that emails you)
-- ** Registered Business **
+- **Registered Business**
   - If you wish to release apps under your own personal name ex. `Claudia Sanders` you can skip this section
   - If you wish to release apps under a company name or game studio name you will need to complete some extra steps:
  - Register your company as an ** LLC, S-Corp or similar business ** . This varies in cost and complexity depending on your city, county, state, and federal government. This could also take a few weeks.
- - ** A D-U-N-S number ** [Instructions here](https://developer.apple.com/support/D-U-N-S/)
+ - **A D-U-N-S number** [Instructions here](https://developer.apple.com/support/D-U-N-S/)
     - Dun & Bradstreet is a third party service Apple uses to verify that you are a real business, and that you are serious. This could also take a few weeks.
 
 ## In addition to your game you need to create the following content
@@ -68,7 +68,7 @@ Recently updated to allow larger sizes such as 5.5" to be used for 4.7", 5.5" or
     - aspect ratio: 375 : 667
     - 750 x 1334 or 1334 x 750
 
-  - iPhone 5, 5s, 5c, sc
+  - iPhone 5, 5s, 5c, sc, iPod Touch
     - 4-Inch Retina Display
     - aspect ratio: 375 : 568
     - 640 x 1136 or 1136 x 640
