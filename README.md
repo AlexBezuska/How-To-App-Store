@@ -35,25 +35,47 @@ Please feel free to help with this project, specific needs and features wanted b
 
 - [ImageMagick](https://www.imagemagick.org)
   - MacOS using [Homebrew](https://brew.sh/)
-    - If you don't have Homebrew it can be installed with this command in your terminal: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-    - Once you have Homebrew you can run `brew install ImageMagick`
+    - If you don't have Homebrew it can be installed with this command in your terminal: 
+        ```bash
+        /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+        ```
+    - Once you have Homebrew you can run
+        ```bash
+        brew install ImageMagick
+        ```
   - Ubuntu
-    - ```sudo apt-get install imagemagick```
+      ```bash
+      sudo apt-get install imagemagick
+      ```
 
 
 - Clone this repository to your local machine(recommended)
-  - ```git clone git@github.com:AlexBezuska/How-To-App-Store.git```
-  - or download the zip (less recommended but it will work)
+    ```bash
+    git clone git@github.com:AlexBezuska/How-To-App-Store.git
+    ```
+  - or [download the zip](https://github.com/AlexBezuska/How-To-App-Store/archive/master.zip) (less recommended but it will work)
 
 
 ## How to use
 
 
  #### Generate app icons:
-- Copy your app icon (2048 x 2048 px png format) into the `input` directory and name it `icon.png`
-- In your terminal move into the root of the `How-To-App-Store` project ex. ``` cd How-To-App-Store ```
-- run `./build.sh`
-- A `output` directory will be created or updated with the output files in their respective subfolders
+1.  Copy your app icon (2048 x 2048 px png format) into the `input` directory and name it `icon.png`
+    ```bash
+    cp /path/to/image.png How-To-App-Store/input/icon.png
+    ```
+2. In your terminal move into the root of the `How-To-App-Store` project
+    ```bash
+    cd How-To-App-Store
+    ```
+3. run build script
+    ```bash
+    ./build.sh
+    ```
+4. An `output` directory will be created or updated with the output files in their respective subfolders where you can find your newly generated files
+    ```bash
+    ls output
+    ```
 
 
 ## Feature requests
