@@ -30,6 +30,27 @@ Some of which can be automated using tools in this project, such as [icons](http
 - Optional but recommended:
   - Video of app or game in use
 
+## Be sure Xcode is installed and updated!
+1. Click the apple Menu (apple icon) at the top left of the screen and selec `App Store`
+2. If you already have Xcode click the `Updates` tab and see if there are any Xcode updates available
+3. If you do not have Xcode installed, search App Store for the it and get the latest version
+
+## Unity guide
+
+ Open your project in Unity on a real Mac
+1. Go to File > Build Settings...
+2. Be sure the proper scenes your game uses are checked in the `Scenes In Build` section
+3. Select iOS from the `Platform` area
+4. Be sure the following options are set:
+  - Run in Xcode as --> Release
+  - Development Build --> not checked
+  - Compression Method --> None
+and click the `Build` button.
+This will ass you where you want to store your iOS build, I usually create a folder inside my Unity project's root folder and name it `Builds` and save the iOS build as `iOS`
+
+5. Open Xcode and go to `File` and choose `Open`
+6. Look for your Unity project and find the folder for the iOs build you created and open it.
+7. FIXME
 
 
 ## Terms Apple uses explained, and questions you will be asked
