@@ -7,6 +7,7 @@
 - **An Apple Mac computer** (Cost: $499(new Mac Mini) and up, used prices vary)
   - Yes you need a mac, and yes this is for real... The Xcode SDK and editor only run on MacOS and you also need to use Xcode to upload your app to Apple
 - **iOS Developer account** (Cost: $100 per year)
+  - Sign up for a developer account by going to [https://developer.apple.com/](https://developer.apple.com/) and clicking `Account` in the top menu
 - **Support Form**
   - Apple asks for each developer to have a support URL, this means a form on your website where users will be directed to for bugs and support questions about your app (at minimum a google form for support that emails you)
 - **Registered Business** (Cost: varies by state)
@@ -37,6 +38,7 @@ Some of which can be automated using tools in this project, such as [icons](http
 
 ## Unity guide
 
+### The first step: Running your Unity game on a real iOS device
  Open your project in Unity on a real Mac
 1. Go to File > Build Settings...
 2. Be sure the proper scenes your game uses are checked in the `Scenes In Build` section
@@ -48,9 +50,32 @@ Some of which can be automated using tools in this project, such as [icons](http
 and click the `Build` button.
 This will ass you where you want to store your iOS build, I usually create a folder inside my Unity project's root folder and name it `Builds` and save the iOS build as `iOS`
 
-5. Open Xcode and go to `File` and choose `Open`
+5. Open Xcode and go to `File` → `Open`
 6. Look for your Unity project and find the folder for the iOs build you created and open it.
-7. FIXME
+7. In the left hand sidebar there will be a blue icon with the name of your project next to it, click the icon and it will show you options in the middle pane such as `Identity`, `Signing`, and `Deployment Info`.
+8. In the Identity section find the `Bundle Identifier` this must be set to your company and game name for example if your company name is "Milk and Cookies Games" and your game is "Dunk Quest" your `Bundle Identifier` will be `com.milkandcookiesgmes.dunkquest`
+
+9. You also need to set your `Team` in the `Signing` section, this is how Apple knows which iOS developer account is creating this app. If your dropdown menu has your correct team name (it could be your real name or a company name) then select it from the list, if you only have the `none` and `Add an Acount...` options select `Add an Acount... and it will ask you to sign in with the email and password you used for creating your Apple developer account.
+
+10. Plug in an iPhone, iPad, or iPod touch and  unlock the device. If you have setup your phone as a development device you can skip steps 11 & 12
+
+11.  Setting up a real iOS device to accept builds from Xcode: Plug in an iPhone, iPad, or iPod touch and  unlock the device. The device might as you to "trust" the computer you are connected to, accept this or you will not be able to test your build on this device
+
+12. In Xcode select  Window → Devices. From this window you can enable devices for development by adding your provisioning profiles. Right click on device and select Show Provisioning Profiles.... It will appear a window where you can add your profiles. After that you will be able to install your apps in that device.
+
+13. At the top  of the Xcode window you will see play and stop icons, to the right of the stop icon is a unity logo with either `Unity-iPhone`, or the name of your game, next to that there is a hammer icon with `Generic iOS Device` click this button and select your iPhone, iPad, or iPod Touch device name from the list
+
+14. Now we are ready to send a build to your device, be sure your device is not locked or asleap and click the play button.
+
+ This is the end of the running your game on the device guide
+ It would be usefull to add some tips for debugging common errors.
+
+
+### The second step: Running your Unity game on a real iOS device
+
+1. This section has not been written yet, please feel free to add anthything from notes, to a full guide!
+
+
 
 
 ## Terms Apple uses explained, and questions you will be asked
